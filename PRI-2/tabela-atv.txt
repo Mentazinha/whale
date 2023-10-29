@@ -1,0 +1,6 @@
+CREATE TABLE atividade(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(30) NOT NULL,
+    dataAtividade DATE NOT NULL,
+    descricao VARCHAR(200) NOT NULL
+) ENGINE = Innodb;
